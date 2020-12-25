@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+header{
+    background-color:black;
+    display: flex;
+
+    
+}
+header div {
+    width: 700px;
+}
+.navBar{
+    display: flex;
+   
+    flex-grow: 1;
+    justify-content: flex-end;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+}
+.navBar input{
+    border: none;
+    width: 50px;
+}
+.basket{
+    display: flex;
+    width: 80px;
+    height: 30px;
+    
+  border-radius: 12px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+}
+.fa-shopping-basket{
+    color:seagreen;
+}
+.grid-product{
+   
+    display: grid;
+    grid-gap:100px;
+  grid-template-columns: auto auto auto;
+ 
+  padding: 80px;
+  grid-template-rows: 300px 300px;
+  align-content: center;
+}
+.item {
+   
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.grid-product img{
+    width: 200px;
+    height: 200px;
+}
+.quantity{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+
+ .quantite{
+     width: 50px;
+ }
+ 
+ .btn-ajout{
+    font-size: 20px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 2px;
+    background-color: #4CAF50;
+ }
+.imgd{
+    width: 100px;
+    height: 100px;
+}
+#total{
+    
+    color: black;
+}
+#dollar{
+    color: black;
+}
+#tab{
+    width: 100%;
+}
+
+.tr,.td{
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+  }
+  .plus,.moins{
+      height: 30px;
+  }
+  .Ajouter{
+      height: 40px;
+     background-color: rgb(73, 165, 73);
+     border: none;
+  }
+  .fa-heart{
+      color: black;
+  }
